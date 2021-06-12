@@ -44,11 +44,13 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
+    <SectionDivider/>
+    <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
       I’ve been given the privilege of being born in the last millennium, so I’m trying to make the most of this new one. I believe that anything is possible, and that is how I approach everything. <br/> 
       I study at the Faculty of Mathematics, Physics and Informatics of Comenius University and my major is Computer Science.<br/>
-      I’ve loved sport since I was a child, especially football, which I’ve been playing since I was six years old. Along the way, I’d love to go hiking and play table tennis. <br/>
+      I’ve loved sport since I was a child, especially football, which I’ve been playing since I was six years old. Along the way, I love to go hiking and play table tennis. <br/>
       In addition to sports, I enjoy programming, so in addition to school and entertainment, I try to program and work on various projects.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

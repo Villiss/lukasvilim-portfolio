@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            React.js
+            React.js, CSS, HTML, little bit of Vue and Vuetify
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            Node and Databases
+            PostgreSQL, Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
