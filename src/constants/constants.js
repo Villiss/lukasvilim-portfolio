@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Chat application',
-    description: "Simple Chat application. Feel free to chat with me. Username and password are the same: ChatMe.",
+    description: "Simple Chat application. Feel free to chat with me. Credentials on github.",
       image: '/images/1.png',
       tags: ['React', 'ChatEngine'],
     source: 'https://vilimchat.netlify.app/',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'E-Commerce',
-    description:"Easy ecommerce project. Here are only few products, but the purpose of this ecommerce was to get in touch with React.js. You can easily buy what you want. Sample card number is: 4242 4242 4242 4242, Exp. date: 04 / 24, CVV: 242 and Postal Code: 42424. You won't pay for anything.",
+    description:"Easy ecommerce project. Here are only few products, but the purpose of this ecommerce was to get in touch with React.js. Credentials on github.",
     image: '/images/2.png',
     tags: ['React', 'Stripe', 'Chec.io'],
     source: 'https://vilimshop.netlify.app/',
