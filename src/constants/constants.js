@@ -17,6 +17,15 @@ export const projects = [
     visit: 'https://github.com/Villiss/vilimshop',
     id: 1,
   },
+  {
+    title: 'Information website',
+    description:"Easy information website for TWU s.r.o. where you can find elegant framer-motion design, fully responsive and reactive cards. Every one of them has link to external projects.",
+    image: '/images/3.png',
+    tags: ['React', 'Framer-motion'],
+    source: 'https://www.twu.sk/',
+    visit: 'https://github.com/Villiss/twu',
+    id: 2,
+  },
 ];
 
 export const TimeLineData = [
