@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            React.js, CSS, HTML, little bit of Vue and Vuetify
+            React.js, CSS, HTML, little bit of Vue and Vuetify, Currently working with React Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
