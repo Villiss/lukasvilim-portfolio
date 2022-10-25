@@ -9,7 +9,8 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am into any technology, because I really like to improve my skills and try new things, but here are the technologies I use the most frequently.
+      {/* I like to explore and learn new things and that is the reason why I started programming and studying Computer Science in general. I have a sports background, what makes me fearless when it comes to new challenges. Any technology given, I will do my best to master it. */}
+      Here are some technologies I work with or I have woroked with during mhy career.
     </SectionText>
     <List>
       <ListItem>
@@ -17,8 +18,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            React.js, CSS, HTML, little bit of Vue and Vuetify, Currently working with React Native
+            Experience with React.js, little bit of Vue and Vuetify, Currently working with React Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -27,8 +27,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            PostgreSQL, Node
+            Experience with PostgreSQL, Node.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,8 +36,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
-            Experience with <br/>
-            tools like Figma
+            Experience with tools like Figma nad Canva
           </ListParagraph>
         </ListContainer>
       </ListItem>

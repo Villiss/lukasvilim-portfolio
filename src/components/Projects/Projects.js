@@ -10,7 +10,7 @@ const Projects = () => (
   <Section  id='projects'>
     <SectionDivider />
     <br/>
-    <SectionTitle>Projects</SectionTitle>
+    <SectionTitle>Personal Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) =>(
         <BlogCard key={id}>

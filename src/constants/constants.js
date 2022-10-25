@@ -26,11 +26,21 @@ export const projects = [
     visit: 'https://github.com/Villiss/twu',
     id: 2,
   },
+  {
+    title: 'Information website',
+    description:"Information website with Gallery and Contact form for Skladany.sk - construction company",
+    image: '/images/skladany.png',
+    tags: ['React'],
+    source: 'https://www.skladany.sk/',
+    visit: 'https://github.com/Villiss/skladany',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
-  { year: 2018, text: 'Started at the college', },
-  { year: 2019, text: 'Worked on startup with friends', },
-  { year: 2020, text: 'Worked on projects like own chat aplication or ecommerce', },
-  { year: 2021, text: 'Started to work as a Mobile app developer with React Native', },
+  { year: 2018, text: 'Finished high school and started studium at the universtiy', },
+  { year: 2019, text: 'Tried to code some tech startups with friends', },
+  { year: 2020, text: 'Started to intesively study and code in technologies such as React and React Native', },
+  { year: 2021, text: 'Landed my first developer job alongside school', },
+  { year: 2022, text: 'Started as a freelancer developer - Cross platform mobile app developer', },
 ];

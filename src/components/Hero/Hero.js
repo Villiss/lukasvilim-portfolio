@@ -9,12 +9,11 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        lukasvilim <br/>
-        Personal Portfolio
+        Welcome To My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Passionate self teaching frontend developer while studying on Comenius University. My biggest passion is to build websites that are reactive, so I could be proud to show them to anyone.
+        Cross platform mobile app developer, currently working with React Native.
+        {/* Passionate self teaching frontend developer while studying on Comenius University. My biggest passion is to build websites that are reactive, so I could be proud to show them to anyone. */}
       </SectionText>
       <Button>
         <Link href='#about'>
