@@ -35,6 +35,24 @@ export const projects = [
     visit: 'https://github.com/Villiss/skladany',
     id: 3,
   },
+  {
+    title: 'Personal Portfolio',
+    description:"This is the portfolio you are on right now. Here is also the code, enjoy.",
+    image: '/images/lukasvilim.png',
+    tags: ['React', 'Next.js'],
+    source: 'https://www.lukasvilim.sk/',
+    visit: 'https://github.com/Villiss/lukasvilim-portfolio',
+    id: 4,
+  },
+  {
+    title: 'Big information website',
+    description:"I have coded an informational website with language switch toggle.",
+    image: '/images/mofitoeu.png',
+    tags: ['React'],
+    source: 'https://www.mofito.eu/',
+    visit: 'https://github.com/Villiss/mofitoeu',
+    id: 5,
+  },
 ];
 
 export const TimeLineData = [
