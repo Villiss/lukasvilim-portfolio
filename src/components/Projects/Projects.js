@@ -13,14 +13,14 @@ const Projects = () => (
     <SectionTitle>Personal Projects</SectionTitle>
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) =>(
-        <BlogCard key={id}>
+        <BlogCard key={id} >
           <Img src={image} />
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
             <CardInfo>{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              {/* <TitleContent>Stack</TitleContent> */}
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>
@@ -28,8 +28,8 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Code</ExternalLinks>
-              <ExternalLinks href={source}>Source</ExternalLinks>
+              {/* <ExternalLinks href={visit}>Code</ExternalLinks> */}
+              <ExternalLinks href={source}>View website</ExternalLinks>
             </UtilityList>
           </TitleContent>
         </BlogCard>

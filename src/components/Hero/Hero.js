@@ -12,7 +12,7 @@ const Hero = () => (
         Welcome To My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Cross platform mobile app developer, currently working with React Native.
+        Passionate Mobile and Web apps developer.
         {/* Passionate self teaching frontend developer while studying on Comenius University. My biggest passion is to build websites that are reactive, so I could be proud to show them to anyone. */}
       </SectionText>
       <Button>

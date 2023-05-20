@@ -72,13 +72,14 @@ export const Intro = styled.div`
 
 export const CardInfo = styled.p`
   width: 100%;
-  padding: 0 50px;
+  padding: 10px 50px;
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
+  text-align: right;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+    padding:3rem;
+    text-align: center;
   
 }
 `;
