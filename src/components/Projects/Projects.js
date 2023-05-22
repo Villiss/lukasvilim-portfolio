@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
@@ -14,7 +14,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map(({ id, image, title, description, tags, source, visit }) =>(
         <BlogCard key={id} >
-          <Img src={image} />
+          <Image width={400} height={200} src={image} alt={'image_of_' + title} />
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
