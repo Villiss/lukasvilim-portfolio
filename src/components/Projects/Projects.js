@@ -16,7 +16,7 @@ const Projects = () => (
         <BlogCard key={id} >
           <Image width={400} height={200} src={image} alt={'image_of_' + title} />
           <TitleContent>
-            <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree>{title}</HeaderThree>
             <Hr />
             <CardInfo>{description}</CardInfo>
             <div>

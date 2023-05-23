@@ -8,6 +8,15 @@ export const projects = [
     visit: 'https://github.com/Villiss/genie_ai',
     id: 0,
   },
+  {
+    title: 'Byty Priehradná',
+    description: "Website for real estate agency with apartment inspections and gallery.",
+      image: '/images/priehradna.png',
+      tags: ['Next.js', 'Framer motion'],
+    source: 'https://www.bytypriehradna.sk/',
+    visit: 'https://github.com/Villiss/bytypriehradna',
+    id: 1,
+  },
   // {
   //   title: 'Vilim Chat',
   //   description: "Simple Chat application. Feel free to chat with me. Credentials on github.",
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'Framer-motion'],
     source: 'https://www.twu.sk/',
     visit: 'https://github.com/Villiss/twu',
-    id: 1,
+    id: 2,
   },
   {
     title: 'skladany.sk',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://www.skladany.sk/',
     visit: 'https://github.com/Villiss/skladany',
-    id: 2,
+    id: 3,
   },
   {
     title: 'mofito.eu',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://www.mofito.eu/',
     visit: 'https://github.com/Villiss/mofitoeu',
-    id: 3,
+    id: 4,
   },
 ];
 
