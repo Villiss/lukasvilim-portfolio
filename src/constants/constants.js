@@ -36,13 +36,22 @@ export const projects = [
   //   id: 1,
   // },
   {
+    title: 'MM Wallprint',
+    description:"Presentation website for a company with vertical printer.",
+    image: '/images/tlacstien.png',
+    tags: ['Next js', 'Framer-motion', 'MUI'],
+    source: 'https://www.tlacstien.eu/',
+    visit: 'https://github.com/Villiss/twu',
+    id: 2,
+  },
+  {
     title: 'TWU',
     description:"Small information website, basically TWU Portfolio of projects.",
     image: '/images/3.png',
     tags: ['React', 'Framer-motion'],
     source: 'https://www.twu.sk/',
     visit: 'https://github.com/Villiss/twu',
-    id: 2,
+    id: 3,
   },
   {
     title: 'skladany.sk',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://www.skladany.sk/',
     visit: 'https://github.com/Villiss/skladany',
-    id: 3,
+    id: 4,
   },
   {
     title: 'mofito.eu',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://www.mofito.eu/',
     visit: 'https://github.com/Villiss/mofitoeu',
-    id: 4,
+    id: 5,
   },
 ];
 
